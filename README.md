@@ -6,7 +6,7 @@
 - [Team Member 3 Name] (NetID: [NetID3])
 
 ## GitHub Repository
-[Link to Project Repository](https://github.com/[username]/mips-fibonacci)
+[Link to Project Repository]([https://github.com/[username]/mips-fibonacci](https://github.com/Akona04/Project2-ECE366))
 
 ## Project Description
 This project implements a Fibonacci function in MIPS assembly language. The implementation follows an iterative approach that calculates the nth Fibonacci number as specified in the project requirements.

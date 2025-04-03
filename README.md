@@ -1,9 +1,9 @@
 # MIPS Fibonacci Implementation
 
 ## Team Members
-- [Team Member 1 Name] (NetID: [NetID1])
-- [Team Member 2 Name] (NetID: [NetID2])
-- [Team Member 3 Name] (NetID: [NetID3])
+- Idris Hull-Delgado (NetID: Ihull2)
+- Valmir Rika (NetID: Vriko2)
+- Anish Konakalla (NetID: Akona2)
 
 ## GitHub Repository
 [[Link to Project Repository]([https://github.com/[username]/mips-fibonacci](https://github.com/Akona04/Project2-ECE366))](https://github.com/Akona04/Project2-ECE366)
@@ -12,9 +12,9 @@
 This project implements a Fibonacci function in MIPS assembly language. The implementation follows an iterative approach that calculates the nth Fibonacci number as specified in the project requirements.
 
 ## Contributions
-- **[Team Member 1]**: Implemented the main algorithm structure, wrote the initial Fibonacci implementation.
-- **[Team Member 2]**: Optimized the code, handled edge cases, and performed testing with various inputs.
-- **[Team Member 3]**: Created documentation, compiled the submission materials, and verified correctness.
+- **Idris Hull-Delgado**: Implemented the main algorithm structure, wrote the initial Fibonacci implementation.
+- **Valmir Rika**: Optimized the code, handled edge cases, and performed testing with various inputs.
+- **Anish Konakalla**: Created documentation, compiled the submission materials, and verified correctness.
 
 ## How to Run the Program
 
@@ -36,8 +36,3 @@ This project implements a Fibonacci function in MIPS assembly language. The impl
 To compute the 10th Fibonacci number:
 1. Set `li $a0, 10` in the main section of the code.
 2. After running the program, the value in register $v0 should be 55, which is the 10th Fibonacci number.
-
-## Notes
-- The implementation uses an iterative approach to compute Fibonacci numbers.
-- The function handles the base cases (n=0, n=1) correctly.
-- For large values of n, be aware that the result might overflow the 32-bit register.

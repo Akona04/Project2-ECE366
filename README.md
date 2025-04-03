@@ -18,21 +18,20 @@ This project implements a Fibonacci function in MIPS assembly language. The impl
 
 ## How to Run the Program
 
-### Prerequisites
-1. MIPS MARS Simulator 
-2. Java SDK (JRE or JDK)
+## How to Run the Program
+To use this Fibonacci function to compute the nth Fibonacci number:
 
-### Running the Program
-1. Download and install the MARS simulator and Java SDK from the provided links in the project resources.
-2. Open the MARS simulator.
-3. Load the `Fibonacci.asm` file by going to File > Open.
-4. To compute the nth Fibonacci number:
-   - Modify line 11 in the code: `li $a0, 10` where 10 is the value of n you want to compute.
-   - Assemble the program by clicking on the "Assemble" button (wrench icon).
-   - Run the program by clicking on the "Run" button (play icon).
-   - The result will be stored in register $v0, which can be viewed in the "Registers" panel on the right side of the MARS interface.
+1. Open the MARS simulator.
+2. Load the `Fibonacci.asm` file by going to File > Open.
+3. To incorporate this function into your program:
+   - Set the value of n in register $a0 before calling the function
+   - Use a jump and link (jal) instruction to call the fibonacci function
+   - After the function executes, the result will be in register $v0
 
-### Example
-To compute the 10th Fibonacci number:
-1. Set `li $a0, 10` in the main section of the code.
-2. After running the program, the value in register $v0 should be 55, which is the 10th Fibonacci number.
+4. Example of calling the function:
+```assembly
+# Set n = 10 to compute the 10th Fibonacci number
+li $a0, 10
+# Call the function
+jal fibonacci
+# The result is now in $v0

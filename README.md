@@ -29,3 +29,14 @@ This project implements a Fibonacci function in MIPS assembly language. The impl
 
 You can create a test program that calls our fibonacci function using jal and syscall. We didn't include them as per the instructions received. 
 
+## In order to find if nth Fibonacci number is odd
+
+1. Open the MARS MIPS simulator.
+2. Load the OddMipsProgram.asm file
+3. To test the function with different values of n:
+   - Go to the "Run" menu and select "Assemble"
+   - In the "Execute" tab, modify register $a0 to contain the desired value of n
+     (e.g., set $a0 = 10 to find the 10th Fibonacci number)
+   - Click "Step" to run the program one instruction at a time, or select "Run"
+   - After execution, check register $v0 which will contain the result (the nth Fibonacci number)
+4. To determine if nth Fibonacci number is odd, if $t6 = 0(False) then Fibonacci(nth) = Odd. If $t6 = 1(True) then Fibonacci(nth) = Even.

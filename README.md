@@ -12,9 +12,9 @@
 This project implements a Fibonacci function in MIPS assembly language. The implementation follows an iterative approach that calculates the nth Fibonacci number as specified in the project requirements.
 
 ## Contributions
-- **Idris Hull-Delgado**: Implemented the main algorithm structure, wrote the initial Fibonacci implementation.
-- **Valmir Rika**: Optimized the code, handled edge cases, and performed testing with various inputs.
-- **Anish Konakalla**: Created documentation, compiled the submission materials, and verified correctness.
+- **Idris Hull-Delgado**: Implemented the main algorithm structure, wrote the initial Fibonacci implementation, and managed function orchestration and application flow.
+- **Valmir Rika**: Optimized the code, handled edge cases, and performed testing with various inputs. Built the main control logic and initial structure for main and Odd(m).
+- **Anish Konakalla**: Created documentation, compiled the submission materials, and verified correctness. Implemented the core logic of modulo_by_subtraction, using loops instead of division
 
 ## How to Run the Program
 

@@ -19,8 +19,8 @@ This project implements a Fibonacci function in MIPS assembly language. The impl
 
 ## Contributions
 - **Idris Hull-Delgado**: Implemented the IsFibonacciOdd function and the integrated solution. Optimized the Fibonacci calculation and handled flow control between functions. Ensured correct function returns and result storage.
-- **Valmir Rika**: Implemented the division by repeated subtraction algorithm. Debugged and fixed issues with register management. Tested the solution with various inputs and then verified correctness.
-- **Anish Konakalla**: Implemented the odd function. Built the logic to see if a number is odd or even. Debugged and fixed issues with register management. Created documentation and compiled the submission materials.
+- **Valmir Rika**: Implemented the division by repeated subtraction algorithm. Debugged and fixed issues with register management after integrating solution. Tested the solution with various inputs and then verified correctness.
+- **Anish Konakalla**: Implemented the odd function. Built the logic to see if a number is odd or even. Debugged and fixed issues with register management after integrating solution. Created documentation and compiled the submission materials.
 
 ## How to Run the Program
 
